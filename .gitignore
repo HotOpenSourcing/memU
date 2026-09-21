@@ -121,8 +121,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
-.env.*
 .venv
 env/
 venv/
@@ -193,7 +191,6 @@ ehthumbs.db
 Thumbs.db
 
 # IDE
-.vscode/
 *.swp
 *.swo
 *~
@@ -206,10 +203,11 @@ models/
 *.onnx
 
 # API keys and secrets
-.env.local
 .env.*.local
 secrets.txt
 api_keys.txt
 .cursor
 
 .local/
+config.bat
+node_modules
